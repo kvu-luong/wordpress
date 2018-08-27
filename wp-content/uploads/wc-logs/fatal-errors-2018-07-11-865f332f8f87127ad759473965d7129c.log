@@ -1,0 +1,30 @@
+2018-07-11T04:06:45+00:00 CRITICAL Uncaught Error: Call to undefined method wpdb::last_query() in C:\xampp\htdocs\wordpress\wordpress_1\wp-content\themes\template_demo\functions.php:213
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wordpress_1\wp-settings.php(426): include()
+#1 C:\xampp\htdocs\wordpress\wordpress_1\wp-config.php(91): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wordpress_1\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wordpress_1\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wordpress_1\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown
+
+2018-07-11T04:07:56+00:00 CRITICAL Uncaught Error: Call to undefined method wpdb::last_query() in C:\xampp\htdocs\wordpress\wordpress_1\wp-content\themes\template_demo\functions.php:213
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wordpress_1\wp-settings.php(426): include()
+#1 C:\xampp\htdocs\wordpress\wordpress_1\wp-config.php(91): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wordpress_1\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wordpress_1\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wordpress_1\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown
+
+2018-07-11T10:39:09+00:00 CRITICAL Uncaught Error: Call to undefined function start_session() in C:\xampp\htdocs\wordpress\wordpress_1\wp-content\themes\template_demo\functions.php:163
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wordpress_1\wp-settings.php(426): include()
+#1 C:\xampp\htdocs\wordpress\wordpress_1\wp-config.php(91): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wordpress_1\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wordpress_1\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wordpress_1\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown
+

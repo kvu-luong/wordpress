@@ -1,0 +1,112 @@
+2018-07-06T02:26:15+00:00 CRITICAL Uncaught Error: Call to undefined function get_body() in C:\xampp\htdocs\wordpress\wordpress_1\wp-content\themes\learnWordPress\index.php:4
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wordpress_1\wp-includes\template-loader.php(74): include()
+#1 C:\xampp\htdocs\wordpress\wordpress_1\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wordpress_1\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown
+
+2018-07-06T02:35:28+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Post::have_posts() in C:\xampp\htdocs\wordpress\wordpress_1\wp-content\themes\learnWordPress\index.php:4
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wordpress_1\wp-includes\template-loader.php(74): include()
+#1 C:\xampp\htdocs\wordpress\wordpress_1\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wordpress_1\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown
+
+2018-07-06T02:36:25+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Post::have_posts() in C:\xampp\htdocs\wordpress\wordpress_1\wp-content\themes\learnWordPress\index.php:4
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wordpress_1\wp-includes\template-loader.php(74): include()
+#1 C:\xampp\htdocs\wordpress\wordpress_1\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wordpress_1\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown
+
+2018-07-06T02:53:26+00:00 CRITICAL Uncaught Error: Unsupported operand types in C:\xampp\htdocs\wordpress\wordpress_1\wp-content\themes\learnWordPress\index.php:10
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wordpress_1\wp-includes\template-loader.php(74): include()
+#1 C:\xampp\htdocs\wordpress\wordpress_1\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wordpress_1\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown
+
+2018-07-06T03:02:23+00:00 CRITICAL Uncaught Error: Function name must be a string in C:\xampp\htdocs\wordpress\wordpress_1\wp-content\themes\learnWordPress\index.php:10
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wordpress_1\wp-includes\template-loader.php(74): include()
+#1 C:\xampp\htdocs\wordpress\wordpress_1\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wordpress_1\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown
+
+2018-07-06T03:05:11+00:00 CRITICAL Uncaught Error: Call to undefined function the_name() in C:\xampp\htdocs\wordpress\wordpress_1\wp-content\themes\learnWordPress\index.php:9
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wordpress_1\wp-includes\template-loader.php(74): include()
+#1 C:\xampp\htdocs\wordpress\wordpress_1\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wordpress_1\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown
+
+2018-07-06T03:05:13+00:00 CRITICAL Uncaught Error: Call to undefined function the_name() in C:\xampp\htdocs\wordpress\wordpress_1\wp-content\themes\learnWordPress\index.php:9
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wordpress_1\wp-includes\template-loader.php(74): include()
+#1 C:\xampp\htdocs\wordpress\wordpress_1\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wordpress_1\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown
+
+2018-07-06T03:05:14+00:00 CRITICAL Uncaught Error: Call to undefined function the_name() in C:\xampp\htdocs\wordpress\wordpress_1\wp-content\themes\learnWordPress\index.php:9
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wordpress_1\wp-includes\template-loader.php(74): include()
+#1 C:\xampp\htdocs\wordpress\wordpress_1\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wordpress_1\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown
+
+2018-07-06T03:05:14+00:00 CRITICAL Uncaught Error: Call to undefined function the_name() in C:\xampp\htdocs\wordpress\wordpress_1\wp-content\themes\learnWordPress\index.php:9
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wordpress_1\wp-includes\template-loader.php(74): include()
+#1 C:\xampp\htdocs\wordpress\wordpress_1\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wordpress_1\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown
+
+2018-07-06T08:27:59+00:00 CRITICAL Uncaught Error: Call to undefined function register_nav_menuss() in C:\xampp\htdocs\wordpress\wordpress_1\wp-content\themes\learnWordPress\functions.php:15
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wordpress_1\wp-settings.php(426): include()
+#1 C:\xampp\htdocs\wordpress\wordpress_1\wp-config.php(91): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wordpress_1\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wordpress_1\wp-admin\admin.php(31): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wordpress_1\wp-admin\nav-menus.php(13): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown
+
+2018-07-06T08:28:00+00:00 CRITICAL Uncaught Error: Call to undefined function register_nav_menuss() in C:\xampp\htdocs\wordpress\wordpress_1\wp-content\themes\learnWordPress\functions.php:15
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wordpress_1\wp-settings.php(426): include()
+#1 C:\xampp\htdocs\wordpress\wordpress_1\wp-config.php(91): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wordpress_1\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wordpress_1\wp-admin\admin.php(31): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wordpress_1\wp-admin\nav-menus.php(13): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown
+
+2018-07-06T08:28:01+00:00 CRITICAL Uncaught Error: Call to undefined function register_nav_menuss() in C:\xampp\htdocs\wordpress\wordpress_1\wp-content\themes\learnWordPress\functions.php:15
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wordpress_1\wp-settings.php(426): include()
+#1 C:\xampp\htdocs\wordpress\wordpress_1\wp-config.php(91): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wordpress_1\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wordpress_1\wp-admin\admin.php(31): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wordpress_1\wp-admin\nav-menus.php(13): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown
+
+2018-07-06T08:28:01+00:00 CRITICAL Uncaught Error: Call to undefined function register_nav_menuss() in C:\xampp\htdocs\wordpress\wordpress_1\wp-content\themes\learnWordPress\functions.php:15
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wordpress_1\wp-settings.php(426): include()
+#1 C:\xampp\htdocs\wordpress\wordpress_1\wp-config.php(91): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wordpress_1\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wordpress_1\wp-admin\admin.php(31): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wordpress_1\wp-admin\nav-menus.php(13): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown
+

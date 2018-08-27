@@ -1,0 +1,1673 @@
+/*Color-wrap for the content*/
+
+.color-wrap {
+    background-color: #F5F7F8;
+margin-top: 3%;
+}
+/* my responsive for new order form */
+
+/* new css for radio button in new form */
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+     margin-top:20px;
+}
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 100%;
+    background: #fff;
+}
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 18px;
+    height: 18px;
+    background: black;
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+[type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+.order-contain-radio{
+    position: relative;
+}
+#order-tag{
+    z-index: 1;
+    background: transparent;
+    position: absolute;
+    left: 0;
+    margin-top: 22%;
+    width: 159.957px;
+    height: 75px;
+    -webkit-margin-start: -25%;
+}
+.order-radio{
+    margin-bottom: 20px;
+text-align: left;
+}
+label.order-radio{
+    color: black!important;
+    font-weight: bold;
+    font-size: 17px;   
+}
+[type="radio"][name="billing-address-rdio"]:checked + label:after
+,[type="radio"][name="billing-address-rdio"]:checked + label:before {
+    opacity:0;
+}
+/*----------------------------------------*/
+/*upper body new_order_form*/
+h1.col-md-6.col-md-push-3.text-center{
+    font-size: 66px;
+    font-family: "Leitura Display Roman", serif;
+    font-weight: normal;
+}
+img#tag_new{
+    width: 200px;
+}
+.radio-subcription-new.col-md-6.text-right{
+    padding-right:0px;
+    z-index:1;
+}
+.contain-radio-new.col-md-6{
+    padding-left:0px;
+    margin-left: -15px;
+}
+/*bottom body new_order_form*/
+.col-xs-12.col-sm-6.my-left-part-new{
+    text-align: right;
+    margin-left: -3%;
+}
+img.img-order-myform-new{
+    width: 50%;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+.col-xs-12.col-sm-4.my-gift-subscription-new{
+    margin-top: 8%;
+    text-align: left;
+}
+p.subscribe_new{
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 19px;
+}
+.h2-custom-new{
+    font-size: 39px;
+    font-family: "Leitura News Roman 3", serif;
+    font-weight: bold;
+}
+p.p-new{
+    font-weight: normal;
+    font-family: "Leitura News Roman 3", serif;
+    font-size: 17px;
+}
+/*------------------page order form new 2----------------------- */
+/*form infor*/
+.myinfo-fill p{
+    font-size: 18px;
+    font-weight: normal;
+    font-family: "Leitura News Roman 3", serif;
+    margin-top: 27px;
+    margin-bottom: 24px;
+}
+.myinfo-fill input{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.myinfo-fill{
+    font-weight: 500;
+    font-family: "Leitura News Roman 3", serif;
+}
+/*ship to a different address*/
+.mybilling-address{
+    margin-top:27px;
+}
+.mybilling-address input{
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+.mybilling-address{
+    font-weight: 500;
+    font-family: "Leitura News Roman 3", serif;
+}
+/*condition radio*/
+.check_myform_new{
+    margin-top: 27px;
+}
+label.myorder-radio{
+    color: black !important;
+    font-weight: 600;
+    font-size:20px;
+}
+/*handle two button*/
+.handle_two_button{
+    margin-bottom:27px;
+}
+input#btn-sub-myform{
+    background: red;
+    border: none;
+    height: 31px;
+    color: white;
+    font-family: "Leitura News Roman 3", serif;
+}
+
+
+
+
+
+/*-------------------------Main-content-------------------*/
+
+/*About-us*/
+
+/*Block get the magazine page welcome.html and contact.html*/
+
+.heading-welcome-page span:before,
+.heading-welcome-page span:after {
+    content: "";
+    background-size: auto 100%;
+    height: 24%;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    margin-top: -5px;
+}
+
+
+.block-subscription-page-welcome {
+    padding-bottom: 25px;
+}
+
+.block-subscription-page-welcome .heading-welcome-page {
+    border-top: 0;
+    overflow: hidden;
+    padding-top: 40px;
+}
+
+.block-subscription-page-welcome .heading-welcome-page span {
+    padding: 0 20px;
+    top: 18px;
+    background-color: #F5F7F8;
+}
+
+.block-subscription-page-welcome .heading-welcome-page:before,
+.heading-welcome-page:after {
+    content: "";
+    background-size: auto 100%;
+    height: 9px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    margin-top: -5px;
+}
+
+.block-subscription-page-welcome .heading-welcome-page:before {
+    background: url(../img/line-2.svg) no-repeat right;
+    background-size: auto 100%;
+    right: 50%;
+    margin-right: 106px;
+}
+
+.block-subscription-page-welcome .heading-welcome-page:after {
+    background: url(../img/line-2-r.svg) no-repeat left;
+    background-size: auto 100%;
+    left: 50%;
+    margin-left: 106px;
+}
+
+/**
+.text-trend {
+    padding: 0 25px;
+    font-family: "DTLNobelT", sans-serif;
+}*/
+
+.heading-welcome-page span {
+    border: none;
+    padding: 0 35px;
+}
+
+.block-subs-customize {
+    width: 50%;
+    padding-bottom: 50px;
+    margin: 0 auto;
+}
+
+.subs-img-customize {
+    width: 37%;
+    display: inline-block;
+    margin: 10px 30px 0px 0px;
+}
+
+.subs-content-customize {
+    width: 327px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.subs-content-customize p {
+    font-size: 12px;
+    color: #E31F26;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.subs-content-customize .subs-title {
+    font-family: 'Leitura Display Roman', serif;
+    font-size: 38px;
+    margin-bottom: 10px;
+    line-height: 1;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.subs-content-customize button {
+    background: red;
+    color: #fff;
+    font-size: 12px;
+    border: none;
+    padding: 8px 28px;
+    margin-top: 10px;
+}
+
+.subs-content-customize button-customize:hover,
+.subs-content-customize button-customize:focus {
+    opacity: 0.8;
+}
+
+/*--------------------------Footer-----------------------*/
+
+/*
+
+.footer {
+    padding: 25px 0;
+    background: #231F20;
+    color: #fff;
+}
+
+.footer-text {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: 'DTLNobelT Condensed', sans-serif;
+    margin-bottom: 10px;
+}
+
+.subscribe {
+    border: 1px solid #fff;
+    height: 35px;
+    width: 435px;
+    font-size: 0;
+}
+
+.subscribe input[type="email"],
+.subscribe button[type=submit] {
+    background-color: transparent;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    height: 32px;
+    letter-spacing: 1px;
+    line-height: 18px;
+    padding: 0 10px;
+    vertical-align: top;
+
+}
+
+.subscribe input[type="email"] {
+    border: 0 solid #fff;
+    border-right-width: 1px;
+    width: 72%;
+}
+
+.subscribe button[type=submit] {
+    border: none;
+    font-family: "Leitura Sans Grot 3", sans-serif;
+    width: 28%;
+    text-transform: uppercase;
+}
+
+.subscribe button[type=submit]:hover {
+    background-color: #706d6e;
+    color: #f5f5f5;
+}
+
+.footer-social {
+    color: #fff;
+    text-align: right;
+    padding-right: 15px;
+}
+
+.footer-social .social {
+    top: 24px;
+    transform: none;
+    right: 15px;
+    left: 0;
+}
+
+.footer-social .social li a {
+    border-color: #fff;
+}
+
+.menu-footer {
+    margin: 50px 0 45px 0;
+}
+
+.menu-footer ul {
+    -webkit-columns: 3;
+    columns: 3;
+    -webkit-column-gap: 20px;
+    column-gap: 20px;
+}
+
+.menu-footer ul li {
+    font-size: 12px;
+    color: #939598;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+
+}
+
+.menu-footer ul li:hover,
+.menu-footer ul li:focus {
+    text-decoration: underline;
+}
+
+.footer-logo {
+    padding-top: 25px;
+    border-top: 2px solid #fff;
+}
+
+.copy-right {
+    font-size: 9px;
+    line-height: 1.4;
+    text-transform: uppercase;
+}
+
+.copy-right a {
+    text-decoration: underline;
+}
+*/
+
+/*================================Page About-us.html========================*/
+
+.paratype1 > h1 {
+    font-family: 'Leitura Display Roman', serif;
+    font-size: 50px;
+    font-weight: normal;
+}
+
+.paratype1 > h2 {
+    font-family: 'Leitura News Roman 2', serif;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.paratype1 p {
+    width: 848.323px;
+    font-size: 16.5px;
+    font-family: 'Leitura News Roman 2', serif;
+    line-height: 24.5px;
+}
+
+.section3-intro {
+    margin-top: 30px;
+    margin-bottom: 130px;
+}
+
+#meet-people {
+    margin-left: 10px;
+}
+
+.section-3-people {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.section-3-people > h3 {
+    font-size: 18.5px;
+    font-family: "Leitura News Roman 3", serif;
+    font-weight: normal;
+}
+
+.section-3-people > h4 {
+    font-family: 'Leitura Sans Grot 3', sans-serif;
+    font-size: 16.5px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.custom {
+    padding-right: 314px;
+}
+
+.imgsection3 {
+    margin-right: 30%;
+}
+
+
+
+.arrow {
+    width: 870px;
+}
+
+.arrow > img {
+    padding-left: 134px;
+    padding-right: 134px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/*=======================Page-Contact.html============================*/
+.contact1 {
+    padding-bottom: 100px;
+}
+
+.contact1 h1 {
+    font-size: 50px;
+    font-family: 'Leitura Display Roman', serif;
+    margin-left: 15px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.contact1 h4,
+.contact1 h5 {
+    margin-left: 15px;
+}
+
+.contact1 h4 {
+    font-size: 16.5px;
+    font-family: 'Leitura News Roman 3';
+    font-weight: 200;
+}
+
+.contact1 h5 {
+    font-size: 12.5px;
+    font-family: 'Leitura News Roman 2', serif;
+    font-weight: 300;
+}
+
+.imgad {
+
+    float: right;
+    margin-top: 35px;
+    width: 300px;
+    height: 250px;
+}
+
+
+caption {
+    font-family: 'Leitura News Roman 2', serif;
+    font-size: 12.5px;
+}
+
+.contact-us-info-paragraph {
+    font-family: 'Leitura News Roman 2', serif;
+    font-size: 16.5px;
+    margin-left: 15px;
+}
+
+.bottomintro {
+    font-family: 'Leitura News Roman 3', serif;
+    font-size: 12.5px;
+}
+
+/*=======================================Page Welcome========================================*/
+
+.welcome {
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.welcome h1 {
+    font-size: 50px;
+    font-family: 'Leitura Display Roman', serif;
+    font-weight: normal;
+}
+
+.welcome p {
+    font-size: 16.5px;
+    line-height: 30px;
+    font-family: 'Leitura News Roman 2', serif;
+    padding-bottom: 15px;
+    font-weight: 300;
+}
+
+/*=======================================Page Advertise with us===============================*/
+
+.advertise-page {
+    margin-right: 300px;
+}
+
+.advertise-page > h1 {
+    font-size: 50px;
+    font-family: 'Leitura Display Roman', serif;
+    padding-top: 33px;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.advertise-page > img {
+    width: 870px;
+    height: 580px;
+}
+
+.advertise-page > p {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size: 16.5px;
+    line-height: 24.5px;
+    color: black;
+    font-weight: 300;
+    font-family: 'Leitura News Roman 2', serif;
+
+}
+
+.advertise-page-contact {
+    margin-bottom: 60px;
+}
+
+.advertise-page-contact > h3 {
+    font-weight: normal;
+    font-size: 20px;
+    font-family: 'Leitura News Roman 3', serif;
+}
+
+.advertise-page-contact > p {
+    font-size: 16.5px;
+    font-weight: 300;
+    font-family: 'Leitura News Roman 2', serif;
+}
+
+
+
+/*========================================Policy Page===========================*/
+
+.policy {
+    margin-bottom: 55px;
+}
+
+.policy-heading {
+    font-weight: 500 !important;
+    font-size: 55px;
+    font-family: 'Leitura Display Roman', serif;
+}
+
+.policy > p {
+    padding-bottom: 35px;
+    font-size: 16.5px;
+    font-family: 'Leitura News Roman 2', serif;
+    font-weight: 300;
+    font-weight: normal;
+}
+
+/*==========================================Congratulation Page=====================*/
+
+.congrat-page {
+    padding-left: 314px;
+    padding-right: 314px;
+    margin-bottom: 60px;
+}
+
+.congrat-page > h1 {
+    color: #E21E26;
+    font-size: 55px;
+    font-family: 'Leitura Display Roman', serif;
+    font-weight: normal;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.congrat-page-paragraph > p {
+    font-size: 16.5px;
+    font-family: 'Leitura News Roman 2', serif;
+    font-style: normal;
+    font-weight: 300;
+    padding-left: 51px;
+    padding-right: 50px;
+    color: black;
+    line-height: 24.5px;
+}
+
+
+.congrat-page-paragraph > h2 {
+    font-size: 20px;
+    font-family: 'Leitura News Roman 2', serif;
+    padding-bottom: 35px;
+    font-weight: bold;
+    margin-top: 22px;
+    padding-bottom: 22px;
+}
+
+.congrat-page-paragraph > img {
+    margin-top: 22px;
+    width: 570px;
+    height: 380px;
+}
+
+/*================================Page not found======================================*/
+
+.page-not-found {
+    background-color: #231F20;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    padding-bottom: 160px;
+}
+
+
+.page-not-found-heading {
+    color: #FFFFFF;
+    font-size: 50px;
+    margin-top: 45px;
+    margin-bottom: 20px;
+    font-weight: normal;
+    font-family: 'Leitura Display Roman', serif;
+}
+
+
+.page-not-found-content-wrap p {
+    font-family: 'Leitura News Roman 2', serif;
+    font-size: 16.5px;
+    padding-left: 220px;
+    padding-right: 220px;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+
+
+/*=====================================Page went wrong================================*/
+
+.page-went-wrong {
+    background-color: #231F20;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    padding-bottom: 105px;
+}
+
+.page-went-wrong-heading {
+    color: #FFFFFF;
+    font-size: 50px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: normal;
+    font-family: 'Leitura Display Roman', serif;
+}
+
+.page-went-wronng-content-wrap > p {
+    font-family: 'Leitura News Roman 2', serif;
+    font-size: 16.5px;
+    padding-left: 125px;
+    padding-right: 125px;
+    font-weight: 300;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.page-went-wrong-button {
+    border: 1px solid #E21E26;
+    background-color: #E21E26;
+    width: 110px;
+    height: 30px;
+    font-size: 12px;
+}
+
+.page-went-wrong-button a {
+    font-family: 'Leitura Sans Grot 3', sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.page-went-wrong-button > a {
+    background-color: #E21E26;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+/*==============Page thanks for entering - entering.html=========*/
+
+.entering {
+    margin-bottom: 57px;
+}
+
+.entering h1 {
+    font-size: 55px;
+    font-family: "Leitura Display Roman", serif;
+    font-weight: normal;
+}
+
+.entering p {
+    font-size: 16.5px;
+    font-family: "Leitura News Roman 2", serif;
+    font-weight: 300;
+    line-height: 24.5px;
+}
+
+.entering h3 {
+    font-family: 'Leitura News Roman 3', serif;
+    font-size: 16.5px;
+    margin-top: 35px;
+}
+
+/*For Carousel*/
+
+.mycustomslider {
+    margin-left: 30px;
+    margin-bottom: 60px;
+}
+
+.title-section {
+    width: 270px;
+    height: 75.615px;
+}
+
+.title-section > h2 > a {
+    font-size: 20px;
+    font-family: "Leitura News Roman 2", serif;
+
+}
+
+.mycustomslider > a > img {
+    margin-bottom: 20px;
+}
+
+.slider-4 {
+    margin-top: 60px;
+}
+
+/*For non-carousel*/
+
+.slider-wrap-cust {
+    margin-top: 56px;
+}
+
+.block-contest {
+    margin-top: 45px;
+    margin-bottom: 60px;
+    margin-right: 30px;
+    width: 270px;
+    padding-right: 0;
+}
+
+.block-contest > a > img {
+    margin-bottom: 15px;
+}
+
+.block-contest p {
+    text-transform: uppercase;
+    font-family: "Leitura Sans Grot 2", sans-serif;
+    font-size: 10px;
+    color: #7B7C7E;
+    font-weight: bold;
+}
+
+.block {
+    text-align: center;
+    border-bottom: 1px solid #6D6E71;
+}
+
+.heading-custom-entering {
+    border-top: 1px solid #6D6E71;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 30px;
+}
+
+.block-trend .heading {
+    margin-bottom: 15px;
+}
+
+.block-trend .block-news {
+    padding-bottom: 25px;
+}
+
+.heading-custom-entering span {
+    font-family: 'DTLNobelT Condensed', sans-serif;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%) translateY(-50%);
+    padding: 0 10px;
+    line-height: 35px;
+    background: #F5F7F8;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    width: fit-content;
+    border-left: 1px solid #6D6E71;
+    border-right: 1px solid #6D6E71;
+}
+
+.sub-page .heading-custom-entering span {
+    background: #F6F8F9;
+}
+
+/*=====================Page order-form.html======================*/
+
+/*First-part*/
+
+.form-offer-time > ul > li {
+    list-style-type: none;
+}
+
+#imgresize {
+    width: 175px;
+    height: 234.683px;
+}
+
+#form-subscription-of-time {
+    margin-left: 305px;
+    margin-right: 405px;
+    margin-bottom: 5%;
+}
+
+#form-subscription-of-time h1 {
+    font-size: 55px;
+    font-family: 'Leitura Display Roman', serif;
+    margin-left: 70px;
+    font-weight: normal;
+}
+
+/* .choice input[type=radio] {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+} */
+.choice input[type="radio"]{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+    -moz-appearance: none;
+    border: none;
+}
+
+#tag {
+    z-index: 1;
+    background: transparent;
+    position: absolute;
+    left: 0;
+    margin-top: 200px;
+    margin-left: -154px;
+    width: 159.957px;
+    height: 75px;
+}
+
+.radio-subcription {
+    position: relative;
+}
+
+.line-radio {
+    margin-bottom: 20px;
+}
+
+.line-radio label {
+    font-weight: normal;
+    font-family: "Leitura News Roman 2", serif;
+    font-size: 22.5px;
+
+}
+
+.line-radio input[type=radio]:before {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    top: -2px;
+    left: -2px;
+    background-color: white;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2.25px solid black;
+}
+
+.line-radio input[type=radio]:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -25px;
+    left: 7px;
+    position: relative;
+    background-color: black;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 1px solid black;
+}
+
+.divide-section-arrow {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+/*Second */
+
+#img-order {
+    width: 175px;
+    height: 235px;
+    margin-bottom: 15px;
+}
+
+.left-part {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.h2-custom {
+    font-size: 25px;
+    font-family: "Leitura News Roman 3", serif;
+    font-weight: normal;
+}
+
+.gift-subscription {
+    margin-top: 107px;
+    margin-bottom: 70px;
+    padding-left: 70px;
+}
+
+.form-i-want-this {
+    margin-left: 30px;
+
+}
+
+.form-i-want-this p {
+    font-size: 16.5px;
+    font-family: "Leitura News Roman 2", serif;
+}
+
+.img-order-form {
+    width: 175px;
+    height: 235px;
+    margin-left: 405px;
+    margin-right: 15px;
+}
+
+
+#btn-i-want-this {
+    width: 128.018px;
+    height: 30px;
+    border-color: #E21E26;
+    background-color: #E21E26;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.request-return h1 {
+    font-family: "Leitura Display Roman", serif;
+    margin-top: 55px;
+    font-size: 55px;
+    margin-bottom: 25px;
+    font-weight: 300;
+}
+
+
+/*Third : Fill info*/
+
+.required-sign {
+    color: #E21E26;
+
+}
+
+#form-fill-request {
+    margin-left: 314px;
+    margin-right: 314px;
+}
+
+#form-fill-request label {
+    font-size: 14.5px;
+    margin-top: 20px;
+    display: block;
+    margin-bottom: 10px;
+    margin-left:-2px;
+}
+
+#form-fill-request p {
+    font-family: "Leitura News Roman 2", serif;
+    font-size: 16.5px;
+}
+
+#info-get {
+    font-size: 22.5px;
+    font-family: "Leitura News Roman 2", serif;
+}
+
+.info-fill p {
+    margin-top: 51px;
+    font-size: 16.5px;
+}
+
+.info-fill input {
+    width: 570px;
+    height: 29px;
+}
+
+
+.billing-address {
+    margin-top: 5%;
+}
+
+.billing-address p {
+    font-weight: bold;
+}
+
+.billing-address input[type=text] {
+    width: 570px;
+    height: 29px;
+}
+
+#billing-adress-option {
+    text-align: left;
+    width: 30px;
+    height: 30px;
+    margin-top: 7px;
+}
+
+#billing-adress-option:before {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    top: -2px;
+    left: -2px;
+    background-color: white;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 0.5px solid #6D6E70;
+}
+
+#billing-adress-option:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    background-color: black;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 1px solid black;
+    transform: translate(47%, -173%);
+}
+
+.payment-info {
+    margin-top: 30px;
+    margin-left: 314px;
+    margin-right: 314px;
+}
+
+.payment-info p {
+    font-size: 16.5px;
+    font-family: "Leitura News Roman 2", serif;
+    margin-bottom: 15px;
+}
+
+.payment-info input[type=text] {
+    width: 570px;
+    height: 29px;
+    margin-top: 10px;
+}
+
+#card-number-input {
+    width: 570px;
+}
+
+.card-info-left {
+    padding: 0;
+    margin-top: 30px;
+}
+
+.card-info-left input[type=text] {
+    width: 350px;
+    margin-bottom: 22px;
+}
+
+
+.card-info-right {
+    margin-top: 30px;
+}
+
+.card-info-right input[type=text] {
+    width: 190px;
+}
+
+.card-info {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.expired-date label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.month-expired select {
+    width: 170px;
+}
+
+.custom-select {
+    width: 170px;
+    height: 30px;
+    margin-right: 30px;
+}
+
+
+.select-country {
+    width: 570px;
+    height: 29px;
+}
+
+
+.month-expired {
+    display: inline-block;
+}
+
+#btn-sub-form {
+    height: 30px;
+    width: 170px;
+    color: white;
+    background-color: #E21E26;
+    border: 1px solid #E21E26;
+    float: left;
+    font-size: 12px;
+    margin-left: -140px;
+    margin-top: 27px;
+
+}
+
+.billing-check-or-not {
+    display: none;
+    margin-top:-30px;
+}
+
+.expired-date {
+    padding-left: 0;
+}
+
+.privacy-section {
+    padding: 60px 150px;
+}
+
+.privacy-section h3 {
+    text-decoration: underline;
+    font-size: 18.5px;
+    font-weight: normal;
+    font-family: "Leitura News Roman 3", serif;
+}
+
+.privacy-section p {
+    font-size: 16.5px;
+    font-family: "Leitura News Roman 2", serif;
+    line-height: 24.5px;
+    padding-top: 10px;
+}
+
+
+/*Responsive*/
+
+/*-----------------------------------------------------
+---------------------Responsive------------------------
+-------------------------------------------------------*/
+
+/* Medium Devices, Desktops */
+  @media only screen and (min-width: 1200px){
+}
+
+
+
+/* Tablets: Ipad  */
+@media only screen 
+and (min-device-width: 992px) 
+and (max-device-width: 1199px) 
+{
+/*page new order 2*/
+input#btn-sub-myform.btn-myback{
+    width: 165px;
+    padding-left: 7px;
+}
+}
+
+@media only screen and (min-width:768px) and (max-width: 991px) {
+    .ads-lg{
+        width: 100% !important;
+    }
+
+    /*================================Page about-us.html======================*/
+    .custom {
+        padding: 0;
+    }
+    .paratype1 {
+        text-align: center;
+    }
+    #meet-people {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    .paratype1 p {
+        width: auto;
+        font-size: 16.5px;
+        font-family: "Leitura News Roman 2", serif;
+        line-height: 24.5px;
+    }
+    .arrow > img {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
+        transform: translateX(-10%);
+    }
+    /*=================Page welcome.html=============================*/
+    .block-subs-customize {
+        width: 100%;
+        padding-bottom: 50px;
+        margin: 0 auto;
+    }
+    
+    .subs-content-customize {
+        width: 50%;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    
+    /*========================Advertise.html==================================*/
+    .advertise-page {
+        margin: 0;
+    }
+    .advertise-page > h1 {
+        font-size: 50px;
+        font-family: 'Leitura Display Roman', serif;
+        padding-top: 33px;
+        text-align: center;
+        margin-bottom: 20px;
+        font-weight: normal;
+    }
+
+    .advertise-page-contact {
+        text-align: center;
+    }
+    /*==============================Page not found.html================================*/
+    .page-not-found {
+        background-color: #231F20;
+        margin-top: 20px;
+        width: 100%;
+    }
+    .page-not-found-content-wrap p {
+        font-family: 'Leitura News Roman 2', serif;
+        font-size: 16.5px;
+        padding: 0;
+        font-weight: 300;
+        color: #FFFFFF;
+    }
+    /*==============================Page went wrong.html================================*/
+    .page-went-wrong {
+        background-color: #231F20;
+        margin-top: 25px;
+        width: 100%;
+        padding-bottom: 105px;
+    }
+    .page-went-wronng-content-wrap > p {
+        font-family: 'Leitura News Roman 2', serif;
+        font-size: 16.5px;
+        padding: 0;
+        font-weight: 300;
+        color: #FFFFFF;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+
+    /*===========================Page congratulation.html==========================*/
+    .congrat-page {
+        padding: 0;
+        margin-bottom: 60px;
+    }
+    .congrat-page > h1 {
+        margin-left: 20px;
+        margin-top: 25px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    /*=================================Page-entering.html============================*/
+    .title-section {
+        width: 200px;
+        height: 100px;
+    }
+    .block-contest {
+        margin-top: 45px;
+        margin-bottom: 60px;
+        margin-right: 30px;
+        margin-left: 190px;
+        width: 270px;
+        padding-right: 0;
+    }
+    /*==================================Page policy.html=============================*/
+    .policy-heading {
+        font-weight: 500 !important;
+        font-size: 55px;
+        font-family: "Leitura Display Roman", serif;
+        text-align: center;
+    }
+
+    .policy > p {
+        padding-bottom: 35px;
+        font-size: 16.5px;
+        font-family: "Leitura News Roman 2", serif;
+        font-weight: 300;
+        font-weight: normal;
+        text-align: center;
+    }
+
+    /*========================Page order.html==========================================*/
+    /*set position of menu icon*/
+    .menu-icon.my-menu-icon{
+        margin-top:3%;
+    }
+    /*lower body*/
+    .my-gift-subscription-new{
+        width:50%;
+    }
+    .h2-custom-new{
+        font-size:30px;
+    }
+    p.p-new{
+        font-size:14px;
+    }
+  
+
+}
+
+/* Extra Small Devices, Phones */
+
+ @media only screen
+ and (min-width:576px) 
+ and (max-width: 767px)
+{
+
+    .block-subs {
+        width: 100%;
+        text-align: center;
+    }
+    /*===========================Page about-us.html============================*/
+    .custom {
+        padding: 0;
+    }
+    .paratype1 {
+        text-align: center;
+    }
+    #meet-people {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    .paratype1 p {
+        width: auto;
+        font-size: 16.5px;
+        font-family: "Leitura News Roman 2", serif;
+        line-height: 24.5px;
+    }
+    .arrow > img {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
+        transform: translateX(-10%);
+    }
+     /*=================Page welcome.html=============================*/
+    .block-subs-customize {
+        width: 100%;
+        padding-bottom: 50px;
+        margin: 0 auto;
+    }
+    
+    .subs-content-customize {
+        width: 50%;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    /*========================Advertise.html==================================*/
+    .advertise-page {
+        margin: 0;
+    }
+    .advertise-page > h1 {
+        font-size: 50px;
+        font-family: 'Leitura Display Roman', serif;
+        padding-top: 33px;
+        text-align: center;
+        margin-bottom: 20px;
+        font-weight: normal;
+    }
+
+    .advertise-page-contact {
+        text-align: center;
+    }
+    /*=================================Page-entering.html============================*/
+    .title-section {
+        width: auto;
+        height: 100px;
+    }
+    .block-contest {
+        margin-top: 45px;
+        margin-bottom: 60px;
+        margin-right: 30px;
+        margin-left: 140px;
+        width: 270px;
+        padding-right: 0;
+    }
+    /*==================================Page policy.html=============================*/
+    .policy-heading {
+        font-weight: 500 !important;
+        font-size: 55px;
+        font-family: "Leitura Display Roman", serif;
+        text-align: center;
+    }
+
+    .policy > p {
+        padding-bottom: 35px;
+        font-size: 16.5px;
+        font-family: "Leitura News Roman 2", serif;
+        font-weight: 300;
+        font-weight: normal;
+        text-align: center;
+    }
+    /*===========================Page congratulation.html==========================*/
+    .congrat-page {
+        padding: 0;
+        margin-bottom: 60px;
+    }
+    /*==============================Page not found.html================================*/
+    .page-not-found {
+        background-color: #231F20;
+        margin-top: 20px;
+        width: 100%;
+    }
+    .page-not-found-content-wrap p {
+        font-family: 'Leitura News Roman 2', serif;
+        font-size: 16.5px;
+        padding: 0;
+        font-weight: 300;
+        color: #FFFFFF;
+    }
+    /*==============================Page went wrong.html================================*/
+    .page-went-wrong {
+        background-color: #231F20;
+        margin-top: 25px;
+        width: 100%;
+        padding-bottom: 105px;
+    }
+    .page-went-wronng-content-wrap > p {
+        font-family: 'Leitura News Roman 2', serif;
+        font-size: 16.5px;
+        padding: 0;
+        font-weight: 300;
+        color: #FFFFFF;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+
+
+    /*========================Page order.html==========================================*/
+
+
+     /* page order form 2 new */
+     img.img-order-form-new{
+        width: 51%;
+        margin-left: 41%;
+    }
+    #check_new{
+    text-align: left;
+    width: 30px;
+    height: 30px;
+    margin-top: 7px;
+   }
+    #check_new::before{
+        width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    top: -2px;
+    left: -2px;
+    background-color: white;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 0.5px solid #6D6E70;
+    }
+    label.label_new2{
+    font-weight: bold;
+    font-size: 21px;
+    }
+    .col-md-11.check_form2{
+        width: 62%;
+        margin-left: -2%;
+        margin-top: 1%;
+    }
+    .check_form2_new{
+        margin-top:26px;
+    }
+    .col-md-11.check_form2{
+        width: 93%;
+        margin-left: 7%;
+        margin-top: -4%;
+    }
+    input#btn-sub-form.btn-sub-form-back{
+        margin-left:9px;
+        width: 35%;
+        margin-top: 52px;
+        margin-bottom: -56px;
+    }
+    input#btn-sub-form.btn-sub-form2{
+        margin-left: 64%;
+    margin-top: 28px;
+    margin-bottom: 69px;
+    width: 35%;
+    }
+} 
+/* New tablets */
+@media only screen 
+and (min-width:320px) 
+and (max-width:575px)
+{
+    /*page order form new*/
+    /*upper body*/
+    h1.col-md-6.col-md-push-3.text-center{
+        font-size:40px;
+    }
+    img#tag_new{
+        width:100px;
+    }
+    .radio-subcription-new{
+        margin-top:17px;
+    }
+    .line-radio label{
+        font-size: 15px;
+       color: black !important;
+       font-weight: bold;
+    }
+
+    /*lower body*/
+    .col-xs-12.col-sm-6.my-left-part-new{
+        text-align:center;
+    }
+    .col-xs-12.col-sm-4.my-gift-subscription-new{
+        margin-bottom: 44px;
+    }
+
+    /* --------------page order form 2 new ------------------ */
+    img.img-order-form-new{
+        width: 51%;
+        margin-left: 41%;
+    }
+    #check_new{
+    text-align: left;
+    width: 30px;
+    height: 30px;
+    margin-top: 7px;
+    }
+    /*set position of two button*/
+    input#btn-sub-myform.btn-mysubscribe{
+        margin-top:27px;
+    }
+    /*set position of menu-icon*/
+    .menu-icon.my-menu-icon{
+        margin-top:5%;
+    }
+    /*set position of footer-social-icon*/
+    .my-footer-social-icon{
+        margin-bottom: 27px;
+        margin-top: -20px;
+    }
+}
+
+/* iphone 5 SE */
+@media only screen and (max-width: 320px){
+    /* page order 2 new */
+    label.label-new{
+        font-size:11.5px;
+    }
+    input#btn-sub-form.btn-sub-form-back{
+        margin-left:0px;
+        width: 41%;
+    }
+    input#btn-sub-form.btn-sub-form2{
+        margin-left: 58%;
+    margin-top: -30px;
+    margin-bottom: 69px;
+    width: 41%;
+    }
+}

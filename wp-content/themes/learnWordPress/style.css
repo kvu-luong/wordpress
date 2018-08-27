@@ -1,0 +1,31 @@
+/*
+    Theme Name: Learn WordPress
+    Author: Usef
+    Version: 1.0 
+*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    font-size: 14px;
+}
+h1 a:hover{
+    text-decoration: none;
+    color: black;
+}
+h1 a{
+    color: black;
+}
+/* site-header */
+.site-header{
+    margin-top:10px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid gray;
+}
+
+/* site-body */
+
+/* site-footer */
+.footer{
+    border-top: 2px solid gray;
+}
